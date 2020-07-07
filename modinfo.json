@@ -1,0 +1,34 @@
+{
+    "identifier": "de.ematarkus.pa.lgir.intellidrag",
+	"version": "1.0.0",
+	"dependencies": ["com.wondible.pa.live_game_input_refactor"],
+	"context": "client",
+    "build": "113909",
+    "date": "2019-11-15",
+	"display_name": "Intellidrag for wondibles lgir",
+    "description": "Brings intelligent dragging for wondibles 'live game input refactor' (lgir) which also emits an click when a drag was smaller than 10 pixel.",
+	"author": "ematarkus",
+    "forum": "",
+    "priority": 100,
+    "scenes": {
+        "live_game": [
+            "coui://ui/mods/ematarkus_intellidrag/intellidrag.js"
+        ]
+    },
+    "signature": "not yet implemented",
+    "searchable": [
+        "click",
+		"drag",
+        "ematarkus",
+		"lgir"
+    ],
+    "authors": [
+		"ematarkus",
+		"wondible"
+    ],
+"category":
+    [
+        "ui",
+        "fix"
+    ]
+}
