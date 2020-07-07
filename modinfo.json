@@ -1,34 +1,25 @@
-{
+{    
     "identifier": "de.ematarkus.pa.lgir.intellidrag",
-	"version": "1.0.0",
-	"dependencies": ["com.wondible.pa.live_game_input_refactor"],
-	"context": "client",
-    "build": "113909",
-    "date": "2019-11-15",
-	"display_name": "Intellidrag for wondibles lgir",
-    "description": "Brings intelligent dragging for wondibles 'live game input refactor' (lgir) which also emits an click when a drag was smaller than 10 pixel.",
-	"author": "ematarkus",
-    "forum": "",
+    "context": "client",
+    "version": "1.0.0",
+    "date": "2020-07-07",
+    "author": "ematarkus",
+    "build": "114673",
+    "display_name": "Intellidrag for wondibles lgir",
+    "description": "Brings intelligent dragging for wondibles 'live game input refactor' (lgir) which also emits an click when a drag was smaller than 10 pixel. Contains some of wondibles code.",
+    "category": [
+        "ui",
+        "fix",
+        "lgir",
+        "input"
+    ],
+    "forum": "https://forums.planetaryannihilation.com/threads/client-lgir-intellidrag.73487/",
     "priority": 100,
     "scenes": {
-        "live_game": [
+	"live_game": [
             "coui://ui/mods/ematarkus_intellidrag/intellidrag.js"
         ]
     },
-    "signature": "not yet implemented",
-    "searchable": [
-        "click",
-		"drag",
-        "ematarkus",
-		"lgir"
-    ],
-    "authors": [
-		"ematarkus",
-		"wondible"
-    ],
-"category":
-    [
-        "ui",
-        "fix"
-    ]
+    "dependencies": ["com.wondible.pa.live_game_input_refactor"],
+    "signature": "not yet implemented"
 }
