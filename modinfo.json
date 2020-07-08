@@ -11,7 +11,8 @@
         "ui",
         "fix",
         "lgir",
-        "input"
+        "input",
+        "titans"
     ],
     "forum": "https://forums.planetaryannihilation.com/threads/client-lgir-intellidrag.73487/",
     "priority": 100,
@@ -20,6 +21,9 @@
             "coui://ui/mods/ematarkus_intellidrag/intellidrag.js"
         ]
     },
-    "dependencies": ["com.wondible.pa.live_game_input_refactor"],
+    "dependencies": [
+        "com.wondible.pa.live_game_input_refactor"
+    ],
+    "titansOnly": true,
     "signature": "not yet implemented"
 }
