@@ -22,10 +22,11 @@
       event.holodeck = mdevent.holodeck;
       //if (model.showTimeControls())
         //model.endCommandMode();
-        
+
       if ((event.type === 'mousemove') && polling && ((new Date().getTime()) >= dragTime)) {
         polling = false;
         dragging = true;
+        delete mdevent.holodeck.doubleClickTime;
         responders.start(event, setDragging, cancelDragging);
       }
       else if ((event.type === 'mouseup') && (event.button === mdevent.button)) {
@@ -45,7 +46,7 @@
       }
       else if ((event.type === 'keydown') && (event.keyCode === keyboard.esc)) {
         input.release();
-        responders.cancel(event);
+        responders.cancel(event)
       }
     });
   }

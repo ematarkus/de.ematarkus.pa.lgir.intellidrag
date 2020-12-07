@@ -1,12 +1,12 @@
 {    
     "identifier": "de.ematarkus.pa.lgir.intellidrag",
     "context": "client",
-    "version": "1.0.0",
-    "date": "2020-07-07",
+    "version": "1.0.1",
+    "date": "2020-12-07",
     "author": "ematarkus",
-    "build": "114673",
+    "build": "115050",
     "display_name": "Intellidrag for wondibles lgir",
-    "description": "Brings intelligent dragging for wondibles 'live game input refactor' (lgir) which also emits an click when a drag was smaller than 10 pixel. Contains some of wondibles code.",
+    "description": "Brings intelligent dragging for wondibles 'live game input refactor' (lgir) which also emits an click when a drag was smaller than 10 pixel. Contains some of wondibles code. This is not needed in combination with Fast Click mod.",
     "category": [
         "ui",
         "fix",
